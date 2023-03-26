@@ -1,0 +1,9 @@
+export { AboutMe } from './AboutMe';
+export { Contact } from './Contact';
+export { Education } from './Education';
+export { Employment } from './Employment';
+export { Footer } from './Footer';
+export { Header } from './Header';
+export { Portafoly } from './Portafoly';
+export { Sidebar } from './Sidebar';
+export { Skills } from './Skills';

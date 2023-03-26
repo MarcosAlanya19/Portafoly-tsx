@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+@tailwind variants;
+
+h1,
+h2 {
+  @apply uppercase;
+}
+
+@media (max-width: 768px) {
+  .stroke {
+    -webkit-text-stroke: 0.5px black;
+  }
+}
+
+.btnSidebar span:first-child {
+  transform: translateX(-101%);
+  transition: transform 0.3s ease-in;
+}
+
+.btnSidebar:hover span {
+  transform: translateX(0);
+}
